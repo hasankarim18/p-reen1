@@ -1,0 +1,153 @@
+
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+	.slider .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 6%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+	
+	
+	.works .title {
+    margin: 4.125rem 0 2rem 0;
+	}
+	.owl-theme .owl-dots {
+    margin-bottom: 3rem;
+    margin-top: 2.5rem;
+	}
+	.work_with_us h2 {
+    
+    margin-top: 2rem;
+}
+	.work_with_us a {
+   
+    margin: 2rem auto 2rem auto;
+    
+}
+	
+	footer.upper {
+    background: #2f4052;
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+	}
+	
+	footer.upper .first{
+		flex: 0 0 50%;
+		max-width: 50%;
+		margin-bottom:3rem;
+	}
+	
+
+}
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	.social_icon{
+		text-align:left;
+	}
+	
+	.card {
+    width: 100% !important;
+    margin-bottom: 2rem;
+	}
+	
+	.who_we_are {
+    width: 100%;
+    padding: 2rem 0;
+	}
+	.who_we_are .title h2 {
+    color: #506a85;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 0.2rem;
+    line-height: 2.62rem;
+    margin-bottom: 20px;
+}
+	
+	
+	.works .title {
+    margin:2rem 0 2rem 0;
+	}
+	.owl-theme .owl-dots {
+    margin-bottom: 3rem;
+    margin-top: 2.5rem;
+	}
+	.work_with_us h2 {
+        line-height: 2rem;
+    margin-top: 2rem;
+}
+	.work_with_us a {
+   
+    margin: 2rem auto 2rem auto;
+    
+}
+	
+	/* footer.upper { */
+    /* background: #2f4052; */
+    /* padding-top: 2rem; */
+    /* padding-bottom: 0rem; */
+	/* } */
+	
+	/* footer.upper .first{ */
+		/* flex: 0 0 50%; */
+		/* max-width: 50%; */
+		/* margin-bottom:3rem; */
+	/* } */
+	
+
+}
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	
+	
+}
